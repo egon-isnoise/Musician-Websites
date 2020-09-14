@@ -1,0 +1,140 @@
+body {
+    font-size: 1.1rem; 
+    color: ivory;
+    font-family: 'Archivio Narrow', Helvetica;
+}
+
+.home {
+    background: url("img/band-pose.jpg") 50% 15% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.news {
+    background: url("img/band-light-up.jpg") 50% 30% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tour {
+    background: url("img/band-on-sofa.jpg") 50% 35% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.music {
+    background: url("img/band-smoking.jpg") 50% 60% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contacts {
+    background: url("img/band-casual.jpg") 50% 10% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Bebas Neue', Helvetica;
+    font-size: 2rem;
+}
+
+.top-nav span {
+    padding: 1.8vw;
+    margin-top: 1.5vw;
+    display: block;
+}
+
+.top-nav a {
+    display: inline-block;
+    color: black;
+    text-shadow: 1px 1px grey;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    color: silver;
+    transform: rotate(-15deg);
+    transition-delay: 100ms;
+}
+
+.name {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: normal;
+    color: bisque;
+    text-shadow: 4px 8px black;
+    margin: 18vh 2vh 0vh 2vh;
+}
+
+article {
+    margin: 2vh 10vw 10vh 10vw;
+    padding: 5vw;
+    background-color: rgba(64, 64, 64, 0.9);
+}
+
+article h2 {
+    text-decoration: underline;
+    text-align: right;
+}
+
+.tour-dates {
+    margin: 2vh 10vw;
+    padding: 5vw;
+    text-align: center;
+    background-color: rgba(64, 64, 64, 0.9);
+}
+
+.tour-dates a {
+    color: ivory;
+}
+
+.music-player-big {
+    margin: 2vh 10vw;
+    padding: 2vw;
+    background-color: rgba(64, 64, 64, 0.9);
+    text-align: center;
+}
+
+.contact-form {
+    margin: 2vh 10vw;
+    padding: 3vw;
+    text-align: center;
+    background-color: rgba(64, 64, 64, 0.9);
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    color: ivory;
+    position: fixed;
+}
+
+
+footer a {
+    display: inline-block;
+    color: ivory;
+    text-decoration: none;
+    margin: 1.5vw;
+}
+
+footer a:hover {
+    color: silver;
+    transform: rotate(-15deg);
+    transition-delay: 100ms;
+}
+
+.foot {
+    position: relative;
+    margin-top: 10vh;
+}
+
+
+
+
